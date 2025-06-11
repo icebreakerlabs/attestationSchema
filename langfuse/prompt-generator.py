@@ -25,7 +25,7 @@ If none are positively recommended, return 'undefined'.
 
 Ignore negative statements, criticisms, or skills not in schemaNameString.
 
-SchemaNameString: {{schemaNameString}}
+SchemaNameString: {schemaNameString}
 
 Return your answer as the schemaName of the skill that is postively reccomended or None if none are postively reccomended. (e.g. "Skill: Engineering")
 """
@@ -38,7 +38,7 @@ with open('../typescript/attestationSchemas.json', 'r') as f:
 
 schemaNameString = [schema['name'] for schema in attestationSchemas if schema['name'].startswith('Skill:')]
 
-#system_prompt = system_prompt.format(schemaNameString=schemaNameString)
+system_prompt = system_prompt.format(schemaNameString=schemaNameString)
 
 langfuse.create_prompt(
     name="attestation-schema",

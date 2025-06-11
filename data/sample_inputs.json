@@ -1,0 +1,402 @@
+[
+    {
+      "input": { "text": "Alice has outstanding engineering skills." },
+      "expected_output": "Skill: Engineering"
+    },
+    {
+      "input": { "text": "Bob's engineering expertise is incredible." },
+      "expected_output": "Skill: Engineering"
+    },
+    {
+      "input": { "text": "Carol demonstrated excellent engineering capabilities during the project." },
+      "expected_output": "Skill: Engineering"
+    },
+    {
+      "input": { "text": "Dave is great at engineering challenges." },
+      "expected_output": "Skill: Engineering"
+    },
+    {
+      "input": { "text": "Eve's top-notch engineering work impressed the entire team." },
+      "expected_output": "Skill: Engineering"
+    },
+    {
+      "input": { "text": "Frank shows remarkable data skills." },
+      "expected_output": "Skill: Data"
+    },
+    {
+      "input": { "text": "Grace possesses exceptional data handling abilities." },
+      "expected_output": "Skill: Data"
+    },
+    {
+      "input": { "text": "He excels at data analysis tasks." },
+      "expected_output": "Skill: Data"
+    },
+    {
+      "input": { "text": "Her data expertise has been invaluable." },
+      "expected_output": "Skill: Data"
+    },
+    {
+      "input": { "text": "Jason's strong data capabilities set him apart." },
+      "expected_output": "Skill: Data"
+    },
+    {
+      "input": { "text": "Kim has a keen sense of product development." },
+      "expected_output": "Skill: Product"
+    },
+    {
+      "input": { "text": "Linda's product skills are unparalleled." },
+      "expected_output": "Skill: Product"
+    },
+    {
+      "input": { "text": "Mark delivered amazing product insights." },
+      "expected_output": "Skill: Product"
+    },
+    {
+      "input": { "text": "Nancy demonstrated excellent product management skills." },
+      "expected_output": "Skill: Product"
+    },
+    {
+      "input": { "text": "Oscar's product knowledge is outstanding." },
+      "expected_output": "Skill: Product"
+    },
+    {
+      "input": { "text": "Pam showed remarkable design skills in the mockups." },
+      "expected_output": "Skill: Design"
+    },
+    {
+      "input": { "text": "Quentin's design expertise elevated the proposal." },
+      "expected_output": "Skill: Design"
+    },
+    {
+      "input": { "text": "Rachel excels at design challenges." },
+      "expected_output": "Skill: Design"
+    },
+    {
+      "input": { "text": "Steve has excellent UI design capabilities." },
+      "expected_output": "Skill: Design"
+    },
+    {
+      "input": { "text": "Tina's graphic design work is top-tier." },
+      "expected_output": "Skill: Design"
+    },
+    {
+      "input": { "text": "Uma displayed strong marketing skills during the campaign." },
+      "expected_output": "Skill: Marketing"
+    },
+    {
+      "input": { "text": "Victor has outstanding marketing expertise." },
+      "expected_output": "Skill: Marketing"
+    },
+    {
+      "input": { "text": "Wendy's marketing strategies were highly effective." },
+      "expected_output": "Skill: Marketing"
+    },
+    {
+      "input": { "text": "Xander excels at marketing analytics." },
+      "expected_output": "Skill: Marketing"
+    },
+    {
+      "input": { "text": "Yvonne demonstrated excellent marketing execution." },
+      "expected_output": "Skill: Marketing"
+    },
+    {
+      "input": { "text": "Zach's legal expertise is exceptional." },
+      "expected_output": "Skill: Legal"
+    },
+    {
+      "input": { "text": "Abigail has outstanding legal skills." },
+      "expected_output": "Skill: Legal"
+    },
+    {
+      "input": { "text": "Brandon's contract law knowledge is top-notch." },
+      "expected_output": "Skill: Legal"
+    },
+    {
+      "input": { "text": "Cynthia demonstrated excellent legal acumen during negotiations." },
+      "expected_output": "Skill: Legal"
+    },
+    {
+      "input": { "text": "Derek shows remarkable legal drafting capabilities." },
+      "expected_output": "Skill: Legal"
+    },
+    {
+      "input": { "text": "Elaine has exceptional finance skills." },
+      "expected_output": "Skill: Finance"
+    },
+    {
+      "input": { "text": "Franklin demonstrated outstanding finance management abilities." },
+      "expected_output": "Skill: Finance"
+    },
+    {
+      "input": { "text": "Georgia's finance expertise drove the project's success." },
+      "expected_output": "Skill: Finance"
+    },
+    {
+      "input": { "text": "Hank excels at finance modelling." },
+      "expected_output": "Skill: Finance"
+    },
+    {
+      "input": { "text": "Isabel has great finance analysis skills." },
+      "expected_output": "Skill: Finance"
+    },
+    {
+      "input": { "text": "Jack showed superb operations skills this quarter." },
+      "expected_output": "Skill: Operations"
+    },
+    {
+      "input": { "text": "Karen's operations expertise streamlined the workflow." },
+      "expected_output": "Skill: Operations"
+    },
+    {
+      "input": { "text": "Leo excels at operations planning." },
+      "expected_output": "Skill: Operations"
+    },
+    {
+      "input": { "text": "Mona demonstrated excellent operations management." },
+      "expected_output": "Skill: Operations"
+    },
+    {
+      "input": { "text": "Nathan has outstanding operations skills." },
+      "expected_output": "Skill: Operations"
+    },
+    {
+      "input": { "text": "Olivia's sales skills are exceptional." },
+      "expected_output": "Skill: Sales"
+    },
+    {
+      "input": { "text": "Peter excels in sales negotiations." },
+      "expected_output": "Skill: Sales"
+    },
+    {
+      "input": { "text": "Quincy demonstrated outstanding sales ability." },
+      "expected_output": "Skill: Sales"
+    },
+    {
+      "input": { "text": "Rachel has great sales track record." },
+      "expected_output": "Skill: Sales"
+    },
+    {
+      "input": { "text": "Sam shows superb sales strategy skills." },
+      "expected_output": "Skill: Sales"
+    },
+    {
+      "input": { "text": "Tracy's support skills have been invaluable." },
+      "expected_output": "Skill: Support"
+    },
+    {
+      "input": { "text": "Ulysses excels at customer support tasks." },
+      "expected_output": "Skill: Support"
+    },
+    {
+      "input": { "text": "Vanessa demonstrated excellent support capabilities." },
+      "expected_output": "Skill: Support"
+    },
+    {
+      "input": { "text": "Walter has outstanding support expertise." },
+      "expected_output": "Skill: Support"
+    },
+    {
+      "input": { "text": "Xena shows remarkable support skills." },
+      "expected_output": "Skill: Support"
+    },
+    {
+      "input": { "text": "Yuri has exceptional talent acquisition skills." },
+      "expected_output": "Skill: Talent"
+    },
+    {
+      "input": { "text": "Zoe's talent management abilities are top-notch." },
+      "expected_output": "Skill: Talent"
+    },
+    {
+      "input": { "text": "Aaron excels in talent scouting." },
+      "expected_output": "Skill: Talent"
+    },
+    {
+      "input": { "text": "Beth demonstrated outstanding talent development." },
+      "expected_output": "Skill: Talent"
+    },
+    {
+      "input": { "text": "Caleb shows superb talent identification skills." },
+      "expected_output": "Skill: Talent"
+    },
+    {
+      "input": { "text": "Alice is not good at engineering." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Bob's data skills are lacking." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Carol does not excel in product management." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Dave's design work was criticized." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Eve failed her marketing exam." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Frank has no legal experience." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Grace is terrible at finance." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "He struggled with operations tasks." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "She can't handle sales responsibilities." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "They lack support expertise." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "John doesn't have talent for recruitment." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Kevin shows no data proficiency." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "This newsletter covers the latest news in tech." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "I love hiking during the weekends." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "The weather today is sunny with a chance of rain." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Please remember to submit your report by Monday." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Our meeting has been rescheduled to next week." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Contact HR for more information." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Happy birthday! Wish you all the best." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "The cake was delicious at the party." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Reading books can improve your vocabulary." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Time flies when you're having fun." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "My cat loves playing with yarn." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Let's discuss the quarterly earnings tomorrow." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "He is an amazing chef." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "She is a skilled musician." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "They solved the puzzle quickly." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Walking in the park is relaxing." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "She won the painting competition." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Their marketing plan was mediocre." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "His finance proposal was rejected." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Their product launch failed." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "The design mockups were subpar." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Operations costs increased unexpectedly." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Sales figures declined last quarter." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Support tickets peaked over the weekend." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Legal issues delayed the project." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Data privacy concerns are growing." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "She has brilliant cooking talents." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "He is the talent champion of the event." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Our finance team is reorganizing." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Excellent weather predicted this week." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Productivity hacks can boost performance." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "They engineered a solution to the problem." },
+      "expected_output": "undefined"
+    },
+    {
+      "input": { "text": "Designers gathered for the annual conference." },
+      "expected_output": "undefined"
+    }
+  ]

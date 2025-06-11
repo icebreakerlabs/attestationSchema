@@ -1,0 +1,12 @@
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are given a list of skills (schemaNameString), each starting with \"Skill:\". Given a text, return the exact names of any skills from schemaNameString that are positively recommended or endorsed in the text. Only return skills from schemaNameString that start with \"Skill:\". If none are positively recommended, return 'undefined'. Ignore negative statements, criticisms, or skills not in schemaNameString. SchemaNameString: ['Skill: Product', 'Skill: Design', 'Skill: Engineering', 'Skill: Marketing', 'Skill: Legal', 'Skill: Finance', 'Skill: Operations', 'Skill: Sales', 'Skill: Support', 'Skill: Talent', 'Skill: Data'] Return your answer as the schemaName of the skill that is postively reccomended or None if none are postively reccomended. (e.g. \"Skill: Engineering\")"
+        },
+        {
+            "role": "user",
+            "content": "text: {{text}}"
+        }
+    ]
+}
