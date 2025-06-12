@@ -27,7 +27,7 @@ Ignore negative statements, criticisms, or skills not in schemaNameString.
 
 SchemaNameString: {schemaNameString}
 
-Return your answer as the schemaName of the skill that is postively reccomended or None if none are postively reccomended. (e.g. "Skill: Engineering")
+Return your answer as the schemaName of the skill that is postively reccomended or 'undefined' if none are postively reccomended. (e.g. "Skill: Engineering")
 """
 
 user_prompt = "text: {{text}}"

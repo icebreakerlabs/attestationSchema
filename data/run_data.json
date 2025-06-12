@@ -1,0 +1,342 @@
+[
+    {
+        "input": {
+            "text": "Carol demonstrated excellent engineering capabilities during the project."
+        },
+        "output": "Skill: Engineering",
+        "scores": [
+            {
+                "value": "1.0",
+                "id": "38be4e6b56b7a147",
+                "trace_id": "f12b0a554d55a072602a170234660a3e",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:46.155000+00:00",
+                "created_at": "2025-06-12 14:09:48+00:00",
+                "updated_at": "2025-06-12 14:09:52.182000+00:00",
+                "author_user_id": "None",
+                "comment": "None",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Engineering"
+    },
+    {
+        "input": {
+            "text": "Dave is great at engineering challenges."
+        },
+        "output": "Skill: Engineering",
+        "scores": [
+            {
+                "value": "1.0",
+                "id": "79386dc19c43a43d",
+                "trace_id": "211c2f21648d916d7d12538b1bd63cb0",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:45.514000+00:00",
+                "created_at": "2025-06-12 14:09:46+00:00",
+                "updated_at": "2025-06-12 14:09:50.954000+00:00",
+                "author_user_id": "None",
+                "comment": "None",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Engineering"
+    },
+    {
+        "input": {
+            "text": "Eve's top-notch engineering work impressed the entire team."
+        },
+        "output": "Skill: Engineering",
+        "scores": [
+            {
+                "value": "1.0",
+                "id": "7ea5221be6957f70",
+                "trace_id": "8c0855b8a87fdc689c4462c21fd54ee3",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:41.454000+00:00",
+                "created_at": "2025-06-12 14:09:43+00:00",
+                "updated_at": "2025-06-12 14:09:47.678000+00:00",
+                "author_user_id": "None",
+                "comment": "None",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Engineering"
+    },
+    {
+        "input": {
+            "text": "Frank shows remarkable data skills."
+        },
+        "output": "undefined",
+        "scores": [
+            {
+                "value": "0.0",
+                "id": "e441a774e1262a87",
+                "trace_id": "75d5165fdcf1562a19d9a5d64b4064eb",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:40.966000+00:00",
+                "created_at": "2025-06-12 14:09:42+00:00",
+                "updated_at": "2025-06-12 14:09:46.527000+00:00",
+                "author_user_id": "None",
+                "comment": "Expected: Skill: Data, Got: undefined",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Data"
+    },
+    {
+        "input": {
+            "text": "Grace possesses exceptional data handling abilities."
+        },
+        "output": "undefined",
+        "scores": [
+            {
+                "value": "0.0",
+                "id": "7a8b57e4b13403fa",
+                "trace_id": "e8c4fc10ec497266e2f1ab51870091d2",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:40.589000+00:00",
+                "created_at": "2025-06-12 14:09:42+00:00",
+                "updated_at": "2025-06-12 14:09:46.530000+00:00",
+                "author_user_id": "None",
+                "comment": "Expected: Skill: Data, Got: undefined",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Data"
+    },
+    {
+        "input": {
+            "text": "He excels at data analysis tasks."
+        },
+        "output": "undefined",
+        "scores": [
+            {
+                "value": "0.0",
+                "id": "b532de4a7a63f8db",
+                "trace_id": "4f221e311ae8342a804f2182b5a5cb82",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:40.085000+00:00",
+                "created_at": "2025-06-12 14:09:41+00:00",
+                "updated_at": "2025-06-12 14:09:45.435000+00:00",
+                "author_user_id": "None",
+                "comment": "Expected: Skill: Data, Got: undefined",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Data"
+    },
+    {
+        "input": {
+            "text": "Her data expertise has been invaluable."
+        },
+        "output": "undefined",
+        "scores": [
+            {
+                "value": "0.0",
+                "id": "b34ae9de73856f97",
+                "trace_id": "6c5512cdae25367f3bffe877c67455ee",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:39.689000+00:00",
+                "created_at": "2025-06-12 14:09:41+00:00",
+                "updated_at": "2025-06-12 14:09:45.403000+00:00",
+                "author_user_id": "None",
+                "comment": "Expected: Skill: Data, Got: undefined",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Data"
+    },
+    {
+        "input": {
+            "text": "Jason's strong data capabilities set him apart."
+        },
+        "output": "Skill: Data",
+        "scores": [
+            {
+                "value": "1.0",
+                "id": "0a37752cf70907fc",
+                "trace_id": "7cf8d2f5301137ead52801c435b46437",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:39.217000+00:00",
+                "created_at": "2025-06-12 14:09:41+00:00",
+                "updated_at": "2025-06-12 14:09:45.399000+00:00",
+                "author_user_id": "None",
+                "comment": "None",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Data"
+    },
+    {
+        "input": {
+            "text": "Kim has a keen sense of product development."
+        },
+        "output": "Skill: Product",
+        "scores": [
+            {
+                "value": "1.0",
+                "id": "ffe4419a20a3123c",
+                "trace_id": "ec7faeae5e2ec6f6e820bbad51c1745b",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:38.803000+00:00",
+                "created_at": "2025-06-12 14:09:40+00:00",
+                "updated_at": "2025-06-12 14:09:44.160000+00:00",
+                "author_user_id": "None",
+                "comment": "None",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Product"
+    },
+    {
+        "input": {
+            "text": "Linda's product skills are unparalleled."
+        },
+        "output": "Skill: Product",
+        "scores": [
+            {
+                "value": "1.0",
+                "id": "4ba8b2215a50cd21",
+                "trace_id": "764367cca84cd310c7d2a95316c5642b",
+                "name": "match",
+                "source": {
+                    "_value_": "API",
+                    "_name_": "API",
+                    "__objclass__": "{'_generate_next_value_': <staticmethod(<function Enum._generate_next_value_ at 0x10284bb00>)>, '__module__': 'langfuse.api.resources.commons.types.score_source', '__firstlineno__': 9, 'visit': <function ScoreSource.visit at 0x1031ed620>, '__static_attributes__': (), '_new_member_': <built-in method __new__ of type object at 0x104862ca0>, '_use_args_': True, '_member_names_': ['ANNOTATION', 'API', 'EVAL'], '_member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_value2member_map_': {'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>}, '_hashable_values_': ['ANNOTATION', 'API', 'EVAL'], '_unhashable_values_': [], '_unhashable_values_map_': {}, '_member_type_': <class 'str'>, '_value_repr_': <slot wrapper '__repr__' of 'str' objects>, '__dict__': <attribute '__dict__' of 'ScoreSource' objects>, '__weakref__': <attribute '__weakref__' of 'ScoreSource' objects>, '__doc__': None, 'ANNOTATION': <ScoreSource.ANNOTATION: 'ANNOTATION'>, 'API': <ScoreSource.API: 'API'>, 'EVAL': <ScoreSource.EVAL: 'EVAL'>, '__repr__': <function Enum.__repr__ at 0x10284bc40>, '__str__': <function Enum.__str__ at 0x10284bce0>, '__format__': <function Enum.__format__ at 0x10284be20>, '__new__': <function Enum.__new__ at 0x10284b880>}",
+                    "_sort_order_": "1"
+                },
+                "observation_id": "None",
+                "timestamp": "2025-06-12 14:09:38.320000+00:00",
+                "created_at": "2025-06-12 14:09:40+00:00",
+                "updated_at": "2025-06-12 14:09:44.160000+00:00",
+                "author_user_id": "None",
+                "comment": "None",
+                "metadata": {},
+                "config_id": "None",
+                "queue_id": "None",
+                "environment": "default",
+                "data_type": "NUMERIC",
+                "stringValue": "None",
+                "projectId": "cmbphib6l0hg6ad07ov3ywcsb"
+            }
+        ],
+        "expected_output": "Skill: Product"
+    }
+]
