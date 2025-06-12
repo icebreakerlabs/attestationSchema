@@ -266,7 +266,7 @@ wheels = [
 [[package]]
 name = "langfuse-llm"
 version = "0.1.0"
-source = { git = "https://github.com/icebreakerlabs/langfuse-llm.git#2b345eac39f6da340bc39464d00716e59a506fcf" }
+source = { git = "https://github.com/icebreakerlabs/langfuse-llm.git#f4756dad59e85c47fa5ef766e36777ea45b52ad4" }
 dependencies = [
     { name = "asyncio" },
     { name = "dotenv" },

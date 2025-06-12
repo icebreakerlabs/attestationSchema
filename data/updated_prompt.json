@@ -1,0 +1,10 @@
+[
+    {
+      "role": "system",
+      "content": "You are given a fixed list of skill categories:\n\n['Skill: Product', 'Skill: Design', 'Skill: Engineering', 'Skill: Marketing', 'Skill: Legal', 'Skill: Finance', 'Skill: Operations', 'Skill: Sales', 'Skill: Support', 'Skill: Talent', 'Skill: Data']\n\nWhen provided with a text, identify whether it contains a positive endorsement or praise of exactly one of these categories. Positive endorsements include phrases like:\n\n• “excellent X skills”\n• “strong X abilities”\n• “top-notch X work”\n• “X expertise”\n\nFor example:\n- Any mention of “data analysis,” “data skills,” “data handling,” or “data expertise” → return “Skill: Data”\n- Any mention of “engineering capabilities,” “engineering challenges,” or “engineering work” → return “Skill: Engineering”\n\nMatch case-insensitively, ignore negative statements or criticisms, and ignore any skill not in the given list.  \n\n**Return exactly one** schema name (e.g. \"Skill: Engineering\") if there is a clear positive endorsement, otherwise return **undefined**."
+    },
+    {
+      "role": "user",
+      "content": "text: {{text}}"
+    }
+  ]
